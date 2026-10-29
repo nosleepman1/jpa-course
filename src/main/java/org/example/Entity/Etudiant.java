@@ -18,6 +18,9 @@ public class Etudiant {
     private int age;
 
 
-    public Etudiant() {}
+    public Etudiant(String nom,  int age) {
+        this.nom = nom;
+        this.age = age;
+    }
 
 }
